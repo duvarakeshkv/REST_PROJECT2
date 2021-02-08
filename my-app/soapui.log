@@ -1,0 +1,72 @@
+2021-02-09 03:22:44,822 WARN  [SoapUI] Missing folder [C:\Users\DuvarakeshKV\Desktop\reskill\api\assignment\RestProject\my-app\ext] for external libraries
+2021-02-09 03:22:45,100 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\DuvarakeshKV\soapui-settings.xml]
+2021-02-09 03:22:46,897 INFO  [WsdlProject] Loaded project from [file:/C:/Users/DuvarakeshKV/Desktop/reskill/api/assignment/RestProject/my-app/END-TO-END-REST-PROJECT1-soapui-project.xml]
+2021-02-09 03:22:47,427 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [END_TO_END_REST PROJECT1]
+2021-02-09 03:22:47,429 INFO  [SoapUITestCaseRunner] Running Project [END_TO_END_REST PROJECT1], runType = SEQUENTIAL
+2021-02-09 03:22:47,445 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_001]
+2021-02-09 03:22:47,466 INFO  [SoapUITestCaseRunner] running step [Client_credential]
+2021-02-09 03:22:49,298 INFO  [log] bearer 4b845a365e82bc4a2e283acab9db2df40d1bee9c
+2021-02-09 03:22:49,365 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-09 03:22:49,372 INFO  [SoapUITestCaseRunner] Assertion [GetAccessToken] has status VALID
+2021-02-09 03:22:49,372 INFO  [SoapUITestCaseRunner] Assertion [verify status code] has status VALID
+2021-02-09 03:22:49,373 INFO  [SoapUITestCaseRunner] running step [login]
+2021-02-09 03:22:49,827 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-09 03:22:49,852 INFO  [log] upskills_admin
+2021-02-09 03:22:49,857 INFO  [log] username is valid
+2021-02-09 03:22:49,859 INFO  [SoapUITestCaseRunner] Assertion [status code] has status VALID
+2021-02-09 03:22:49,861 INFO  [SoapUITestCaseRunner] Assertion [validate admin] has status VALID
+2021-02-09 03:22:49,863 INFO  [SoapUITestCaseRunner] running step [logout]
+2021-02-09 03:22:50,406 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-09 03:22:50,406 INFO  [SoapUITestCaseRunner] Assertion [verifyStatus code] has status VALID
+2021-02-09 03:22:50,407 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_001], time taken: 2237ms, status: FINISHED
+2021-02-09 03:22:50,411 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_002]
+2021-02-09 03:22:50,412 INFO  [SoapUITestCaseRunner] running step [Client_credential]
+2021-02-09 03:22:51,045 INFO  [log] bearer db08fecdb8da7ae48b194a8db3ee5b1275164e0d
+2021-02-09 03:22:51,067 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-09 03:22:51,068 INFO  [SoapUITestCaseRunner] Assertion [GetAccessToken] has status VALID
+2021-02-09 03:22:51,071 INFO  [SoapUITestCaseRunner] Assertion [verify status code] has status VALID
+2021-02-09 03:22:51,072 INFO  [SoapUITestCaseRunner] running step [login]
+2021-02-09 03:22:51,672 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-09 03:22:51,699 INFO  [log] upskills_admin
+2021-02-09 03:22:51,702 INFO  [log] username is valid
+2021-02-09 03:22:51,704 INFO  [SoapUITestCaseRunner] Assertion [status code] has status VALID
+2021-02-09 03:22:51,709 INFO  [SoapUITestCaseRunner] Assertion [validate admin] has status VALID
+2021-02-09 03:22:51,709 INFO  [SoapUITestCaseRunner] running step [getUserDtails]
+2021-02-09 03:22:52,323 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-09 03:22:52,340 INFO  [log] upskills_admin
+2021-02-09 03:22:52,341 INFO  [log] username is valid
+2021-02-09 03:22:52,342 INFO  [SoapUITestCaseRunner] Assertion [verifyStatusCode] has status VALID
+2021-02-09 03:22:52,345 INFO  [SoapUITestCaseRunner] Assertion [verify user name] has status VALID
+2021-02-09 03:22:52,346 INFO  [SoapUITestCaseRunner] running step [logout]
+2021-02-09 03:22:53,919 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-09 03:22:53,920 INFO  [SoapUITestCaseRunner] Assertion [verifyStatus code] has status VALID
+2021-02-09 03:22:53,921 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_002], time taken: 3327ms, status: FINISHED
+2021-02-09 03:22:53,922 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_003]
+2021-02-09 03:22:53,923 INFO  [SoapUITestCaseRunner] running step [Client_credential]
+2021-02-09 03:22:54,562 INFO  [log] bearer 3ffe8ca6fbee8d36a6fb580c29d77f53c973971f
+2021-02-09 03:22:54,591 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-09 03:22:54,593 INFO  [SoapUITestCaseRunner] Assertion [GetAccessToken] has status VALID
+2021-02-09 03:22:54,594 INFO  [SoapUITestCaseRunner] Assertion [verify status code] has status VALID
+2021-02-09 03:22:54,595 INFO  [SoapUITestCaseRunner] running step [login]
+2021-02-09 03:22:55,205 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-09 03:22:55,232 INFO  [log] upskills_admin
+2021-02-09 03:22:55,234 INFO  [log] username is valid
+2021-02-09 03:22:55,235 INFO  [SoapUITestCaseRunner] Assertion [status code] has status VALID
+2021-02-09 03:22:55,236 INFO  [SoapUITestCaseRunner] Assertion [validate admin] has status VALID
+2021-02-09 03:22:55,239 INFO  [SoapUITestCaseRunner] running step [getUserDtails]
+2021-02-09 03:22:55,836 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-09 03:22:55,850 INFO  [log] upskills_admin
+2021-02-09 03:22:55,854 INFO  [log] username is valid
+2021-02-09 03:22:55,854 INFO  [SoapUITestCaseRunner] Assertion [verifyStatusCode] has status VALID
+2021-02-09 03:22:55,855 INFO  [SoapUITestCaseRunner] Assertion [verify user name] has status VALID
+2021-02-09 03:22:55,856 INFO  [SoapUITestCaseRunner] running step [addNewuser]
+2021-02-09 03:22:56,252 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-09 03:22:56,254 INFO  [SoapUITestCaseRunner] Assertion [verifystatuscode] has status VALID
+2021-02-09 03:22:56,254 INFO  [SoapUITestCaseRunner] running step [Added_From_Date]
+2021-02-09 03:22:56,845 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-09 03:22:56,846 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-02-09 03:22:56,852 INFO  [SoapUITestCaseRunner] running step [logout]
+2021-02-09 03:22:57,444 INFO  [log] Header status[HTTP/1.1 200 OK]
+2021-02-09 03:22:57,445 INFO  [SoapUITestCaseRunner] Assertion [verifyStatus code] has status VALID
+2021-02-09 03:22:57,447 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_003], time taken: 3242ms, status: FINISHED
+2021-02-09 03:22:57,453 INFO  [SoapUITestCaseRunner] Project [END_TO_END_REST PROJECT1] finished with status [FINISHED] in 10018ms
